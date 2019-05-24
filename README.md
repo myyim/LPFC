@@ -20,7 +20,7 @@ Make sure that folders codes_matlab and Cai2014, as well as the above files are 
 ### MATLAB
 The MATLAB codes generate the necessary data files from monkey recording data for further analysis in Python. Modification of codes may be necessary for later version of MATLAB.
 
-Data files needed in codes_matlab: all X_dirtuningPar.mat (2662 files), X_psyphycell.mat (2662), X_tuning.mat (2662) and X_bin100.mat (2116, in profiles folder)
+Data files needed in codes_matlab (contact person: X Cai): all X_dirtuningPar.mat (2662 files), X_psyphycell.mat (2662), X_tuning.mat (2662) and X_bin100.mat (2116, in profiles folder)
 
 Matlab codes needed in Cai2014: arearead_DT.m, condReadout.m, readsession.m, sessionlistread.m, targetconvert.m, sessionlist_DT_PFC.m, degreediff.m, resultant.m, preferdir.m, hartigansdipsigniftest.m, hartigansdiptest.m
 
