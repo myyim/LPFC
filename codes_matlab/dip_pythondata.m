@@ -1,0 +1,25 @@
+x = importdata('../datafiles/peak_random.txt');
+n = size(x,1);
+f = fopen('../datafiles/dipp_random.txt','w');
+[dip, p] = hartigansdipsigniftest(x(:,1),n*10);
+fprintf(f,'%20.8f %20.8f \n',dip,p);
+[dip, p] = hartigansdipsigniftest(x(:,2),n*10);
+fprintf(f,'%20.8f %20.8f \n',dip,p);
+[dip, p] = hartigansdipsigniftest(x(:,3),n*10);
+fprintf(f,'%20.8f %20.8f \n',dip,p);
+[dip, p] = hartigansdipsigniftest(x(:,4),n*10);
+fprintf(f,'%20.8f %20.8f \n',dip,p);
+fclose(f);
+
+x = importdata('../datafiles/peak_sim.txt');
+n = size(x,1);
+f = fopen('../datafiles/dipp_sim.txt','w');
+[dip, p] = hartigansdipsigniftest(x(:,1),n*10);
+fprintf(f,'%20.8f %20.8f \n',dip,p);
+[dip, p] = hartigansdipsigniftest(x(:,2),n*10);
+fprintf(f,'%20.8f %20.8f \n',dip,p);
+[dip, p] = hartigansdipsigniftest(x(:,3),n*10);
+fprintf(f,'%20.8f %20.8f \n',dip,p);
+[dip, p] = hartigansdipsigniftest(x(:,4),n*10);
+fprintf(f,'%20.8f %20.8f \n',dip,p);
+fclose(f);
