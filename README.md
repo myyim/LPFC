@@ -1,8 +1,10 @@
 The codes were written for the following paper:
 
-MY Yim, X Cai & X-J Wang (2019) Transforming the choice outcome to an action plan in monkey lateral prefrontal cortex: a neural circuit model.
+MY Yim, X Cai & X-J Wang (2019) Transforming the choice outcome to an action plan in monkey lateral prefrontal cortex: a neural circuit model. Neuron 103, 1–13.
 
-The MATLAB codes are written in MATLAB R2014b by Man Yi Yim (manyi.yim@gmail.com) and Xinying Cai (xinying.cai@nyu.edu). The Python codes are written in Python 2.7 by Man Yi Yim. The codes were finalized on May 24, 2019.
+https://www.cell.com/neuron/fulltext/S0896-6273(19)30485-4
+
+The MATLAB codes are written in MATLAB R2014b by Man Yi Yim (manyi.yim@gmail.com) and Xinying Cai (xinying.cai@nyu.edu). The Python codes are written in Python 2.7 by Man Yi Yim. The codes were finalized on Jun 23, 2019.
 
 ### Codes
 Main codes:
